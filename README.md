@@ -6,10 +6,10 @@ A simple and responsive **Task Manager Application** built using **Django**, **B
 
 # 🌐 Live Demo
 
-🔗 **Application URL**
+🔗 **Live Application**
 
 ```text
-Add Deployment Link Here
+https://task-manager-application-30q9.onrender.com
 ```
 
 ---
@@ -147,24 +147,6 @@ http://127.0.0.1:8000/
 
 ---
 
-# 🧪 Test User Credentials
-
-Use the following credentials for testing:
-
-### 👤 Username
-
-```text
-user1
-```
-
-### 🔑 Password
-
-```text
-user@123
-```
-
----
-
 # 📁 Project Structure
 
 ```text
@@ -185,7 +167,7 @@ task-manager/
 ├── manage.py
 ├── requirements.txt
 ├── README.md
-└── db.sqlite3
+└── db.sqlite3 (Local Development)
 ```
 
 ---
@@ -199,13 +181,13 @@ task-manager/
   * In Progress
   * Done
 * 🔐 Session-based authentication is sufficient for this assignment.
-* 🗄️ SQLite is used for simplicity and quick setup.
+* 🗄️ SQLite is used for local development and PostgreSQL is used for production deployment.
 
 ---
 
 # ⚖️ Tradeoffs
 
-* 🗄️ SQLite is used instead of PostgreSQL for faster development and deployment.
+* 🗄️ SQLite was used during development for simplicity, while PostgreSQL is used in production for better scalability and persistence.
 * 🔐 Session Authentication is used instead of JWT Authentication.
 * 🎯 Focus was given to core functionality and user experience.
 
@@ -214,7 +196,7 @@ task-manager/
 # 🏗️ Technical Decisions
 
 * ✅ Django Authentication for user management.
-* ✅ SQLite for persistent data storage.
+* ✅ SQLite for local development and PostgreSQL for production deployment.
 * ✅ Bootstrap 5 for responsive design.
 * ✅ SweetAlert for delete confirmations.
 * ✅ Kanban Board layout for task tracking.
@@ -267,7 +249,7 @@ task-manager/
 * ✏️ Edit Tasks
 * 📅 Task Due Dates
 * 🎯 Drag & Drop Kanban Board
-* 🐘 PostgreSQL Integration
+* 🔔 Notifications & Reminders
 * 🌐 REST API Support
 * 🔑 JWT Authentication
 * 📧 Email Notifications
