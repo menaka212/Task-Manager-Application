@@ -278,9 +278,9 @@ task-manager/
 
 **Menaka Manavalan**
 
-📧 Email: Add Your Email Here
+📧 Email: menakamanavalan2@gmail.com
 
-🔗 GitHub: Add GitHub Profile Link Here
+🔗 GitHub: https://github.com/menaka212
 
 ---
 
